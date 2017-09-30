@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head lang="ja">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width", initial-scale="1.0">
+<title>haroのサイト</title>
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/colorbox.css">
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery.colorbox.js"></script>
+<script>
+$(function() {
+    $('.group1').colorbox();
+});
+</script>
+<script>
+$(window).on('load resize', function(){
+	$('.glid_list li a').each(function(){
+		var thumWidth = $(".glid_list li a").width();
+		$(this).css('height', thumWidth);
+	});
+});
+</script>
+<script src="js/top.js"></script>
+</head>
+<body>
+
+	<div class="head_wrap">
+		<header class="head_box">
+			<h1><img src="bin/logo.png" alt="haroのサイト"></h1>
+			<div class="head_navi">
+				<nav>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+				</nav>
+			</div>
+			<div class="head_text">
+				<p>親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。</p>
+			</div>
+		</header>
+	</div><!--head_wrap-->
+
+	<div class="content_wrap">
+
+		<div class="content_inner">
+
+			<div class="content_text">
+				<p>親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。</p>
+				<p>新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。弱虫やーい。と囃したからである。小使に負ぶさって帰って来た時、おやじが大きな眼をして二階ぐらいから飛び降りて腰を抜かす奴があるかと云ったから、この次は抜かさずに飛んで見せますと答えた。（青空文庫より）</p>
+			</div>
+
+			<ul class="glid_list">
+				<li><a href="bin/01.jpg" class="group1"><img src="bin/01.jpg" alt=""></a></li>
+				<li><a href="bin/02.jpg" class="group1"><img src="bin/02.jpg" alt=""></a></li>
+				<li><a href="bin/03.jpg" class="group1"><img src="bin/03.jpg" alt=""></a></li>
+				<li><a href="bin/04.jpg" class="group1"><img src="bin/04.jpg" alt=""></a></li>
+				<li><a href="bin/05.jpg" class="group1"><img src="bin/05.jpg" alt=""></a></li>
+				<li><a href="bin/06.jpg" class="group1"><img src="bin/06.jpg" alt=""></a></li>
+				<li><a href="bin/07.jpg" class="group1"><img src="bin/07.jpg" alt=""></a></li>
+				<li><a href="bin/08.jpg" class="group1"><img src="bin/08.jpg" alt=""></a></li>
+				<li><a href="bin/09.jpg" class="group1"><img src="bin/09.jpg" alt=""></a></li>
+				<li><a href="bin/10.jpg" class="group1"><img src="bin/10.jpg" alt=""></a></li>
+				<li><a href="bin/11.jpg" class="group1"><img src="bin/11.jpg" alt=""></a></li>
+				<li><a href="bin/12.jpg" class="group1"><img src="bin/top.jpg" alt=""></a></li>
+			</ul>
+
+		</div><!--.content_wrap-->
+
+	</div><!--.wrapper-->
+
+</body>
+</html>
